@@ -1,0 +1,136 @@
+.about-container {
+    background: url('../../images/wallpaper.jpg') center center/cover no-repeat; 
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+    object-fit: contain;
+    position: relative;
+
+  }
+  
+  .about-h1 {
+    color: #FCDEA6;
+    margin-top: 3rem;
+    font-family:'CormorantSC-Light';
+    font-size:4rem;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .about-h2 {
+    color: #FCDEA6;
+    margin-top: 2rem;
+    font-family:'CormorantSC-Light';
+    font-size:4rem;
+    text-align: center;
+    font-weight: lighter;
+  }
+  
+  .about-p {
+    margin: 2rem 7rem 5rem 7rem;
+    color: #FCDEA6;
+    font-size: 2rem;
+    font-family: 'CormorantSC-Light';
+    text-align: center;
+    font-weight: lighter;
+    
+  }
+
+  .about-li1 {
+    margin: 1rem 7rem 1rem 7rem;
+    color: #FCDEA6;
+    font-size: 1.5rem;
+    font-family: 'CormorantSC-Light';
+    text-align: start;
+    font-weight: bold;
+    list-style: none;
+    background: url('../../images/devices.png') no-repeat;
+    padding-left: 42px;
+  }
+
+  .about-li2 {
+    margin: 1rem 7rem 1rem 7rem;
+    color: #FCDEA6;
+    font-size: 1rem;
+    font-family: 'CormorantSC-Light';
+    text-align: start;
+    font-style: italic;
+    list-style-type: none;
+  }
+
+  .about-li3 {
+    margin: 1rem 7rem 1rem 7rem;
+    color: #FCDEA6;
+    font-size: 1.5rem;
+    font-family: 'CormorantSC-Light';
+    text-align: start;
+    font-weight: bold;
+    list-style: none;
+    background: url('../../images/chat.png') no-repeat;
+    padding-left: 42px;
+  }
+
+  .about-li4 {
+    margin: 1rem 7rem 1rem 7rem;
+    color: #FCDEA6;
+    font-size: 1.5rem;
+    font-family: 'CormorantSC-Light';
+    text-align: start;
+    font-weight: bold;
+    list-style: none;
+    background: url('../../images/24hours.png') no-repeat;
+    padding-left: 42px;
+  }
+
+  .about-li5 {
+    margin: 1rem 7rem 1rem 7rem;
+    color: #FCDEA6;
+    font-size: 1.5rem;
+    font-family: 'CormorantSC-Light';
+    text-align: start;
+    font-weight: bold;
+    list-style: none;
+    background: url('../../images/heart.png') no-repeat;
+    padding-left: 42px;
+  }
+  
+
+  
+  @media screen and (max-width: 960px) {
+
+    .about-container {
+      position: absolute;
+    }
+
+    .about-h1 {
+      font-size: 70px;
+      margin-top: -50px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+
+    .about-container {
+      margin-top: 0px;
+      position: relative;
+      height: 100%;
+      background: url('../../images/wallpaper.jpg') center center/contain repeat; 
+    }
+
+    .about-h1 {
+      font-size: 3rem;
+      margin-top: 50px;
+    
+    }
+
+    .about-p {
+      font-size: 1.5rem;
+    }
+  
+
+  
+  }

@@ -1,0 +1,150 @@
+.teachers-container {
+    background: url('../../images/wallpaper.jpg') center center/cover no-repeat; 
+    height: 170vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+    object-fit: contain;
+    position: relative;
+    
+}
+
+.teachers-container > h1 {
+    color: #FCDEA6;
+    font-family:'CormorantSC-Light';
+    font-size:4rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0rem;
+}
+
+.teachers-container > p {
+    margin: 2rem 7rem 5rem 7rem;
+    color: #FCDEA6;
+    font-size: 1.5rem;
+    font-family: 'CormorantSC-Light';
+    text-align: center;
+    font-weight: lighter;
+}
+
+.ava-teachers-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    margin-top: 15rem;
+}
+
+.ava-teachers {
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  
+}
+
+.ava-img {
+    height: 40vh; 
+    background-position: 50%;
+    border-radius: 50%;
+}
+
+.ava-h2 {
+    color: #FCDEA6;
+    margin-top: 1rem;
+    font-family:'CormorantSC-Light';
+    font-size:2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ava-p {
+    margin: 1rem 7rem 5rem 7rem;
+    color: #FCDEA6;
+    font-size: 1.2rem;
+    font-family: 'CormorantSC-Light';
+    text-align: center;
+    font-weight: lighter;
+}
+
+.certificate {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-sert {
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+}
+
+@media screen and (max-width: 960px) {
+    .teachers-container{
+        position: relative;
+        margin-top: 72rem;
+    }
+
+    .teachers-container > h1 {
+      font-size: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+
+    .teachers-container{
+        position: relative;
+        height: 1000px;
+        margin-top: 0px;
+    }
+
+    .teachers-container > h1 {
+      font-size: 20px;
+      margin-top: -600px;
+      
+    }
+
+    .teachers-container > p {
+        font-size: 15px;
+      }
+
+    .ava-teachers-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 350px;
+
+    }
+
+    .ava-img {
+        height: 22vh; 
+      
+        border-radius: 50%;
+    }
+    
+    .ava-h2 {
+        color: #FCDEA6;
+        margin-top: 1rem;
+        font-family:'CormorantSC-Light';
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .ava-p {
+        color: #FCDEA6;
+        font-size: 15px;
+        font-family: 'CormorantSC-Light';
+        text-align: center;
+        font-weight: lighter;
+    }
+  
+  }

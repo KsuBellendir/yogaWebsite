@@ -1,0 +1,134 @@
+.contact-container {
+    background: url('../../images/wallpaper.jpg') center center/cover no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+
+.nomber {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.contact-h5 {
+    color: #FCDEA6;
+    font-family:'CormorantSC-Light';
+    font-size:2rem;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.contact-p {
+    color: #161410;
+    font-family:'CormorantSC-Light';
+    font-size:1.5rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.social-network {
+    margin-top: 10px;
+}
+
+.contact-mess {
+font-size: 70px;
+margin-top: 30px;
+align-items: center;
+}
+
+.icon-whatsapp {
+    margin-right: 100px;
+    margin-left: 75px;
+    background-color: rgb(67,216,84);
+    border-radius: 15px;
+    color: azure;
+}
+
+.icon-viber {
+    background-color: #8f5db7;
+    margin-right: 100px;
+    border-radius: 15px;
+    color: azure;
+}
+
+.icon-telegram {
+    background-color:  #229ED9;
+    margin-right: 100px;
+    border-radius: 15px;
+    color: azure;
+}
+
+.contact-network {
+    font-size: 70px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.contact-link {
+    margin-right: 100px;
+    margin-top: 150px;
+}
+
+.icon-vk {
+    margin-left: 75px;
+    background-color: rgb(76,117,163);
+    border-radius: 15px;
+    color: azure;
+    margin-top: 50px;
+    
+}
+
+.icon-fb {
+    color:#0165E1; 
+    border-radius: 15px;
+    background: azure;
+}
+
+.icon-inst {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); ;
+    border-radius: 15px;
+    color: azure; 
+}
+
+.contact-text {
+    color: #FCDEA6;
+    font-family:'CormorantSC-Light';
+    font-size:2rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px){
+    .contact-link {
+        margin-right: 30px;
+        margin-top: 50px;
+    }
+
+    .icon-whatsapp {
+        margin-right: 30px;
+        margin-left: 75px;
+
+    }
+    
+    .icon-viber {
+        margin-right: 30px;
+
+    }
+    
+    .icon-telegram {
+
+        margin-right: 30px;
+  
+    }
+}
